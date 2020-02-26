@@ -9,7 +9,7 @@ squid:
     net: "host"
     ## Uncomment and update /path/to/cache
     volumes:
-        - /home/derrend/GitHub/squid-in-a-can/squid_cache_data:/var/cache/squid3
+        - squid_cache_data:/var/cache/squid3
 
 tproxy:
     ##restart: always
